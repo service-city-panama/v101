@@ -1,0 +1,68 @@
+/* :root {
+    background: url(./img/hiace2024.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+} */
+
+
+.text-align {
+    text-align: center;
+}
+
+h1 h2 {
+    text-align: center;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+    border: 1px, solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card h2 {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.card p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #666;
+}
+
+
+/* Tabla */
+.tabla-personas {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-personas th, .tabla-personas td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.tabla-personas th {
+    background-color: #f2f2f2;
+}
+
+.tabla-personas tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabla-personas tr:hover {
+    background-color: #ddd;
+}
