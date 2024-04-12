@@ -7,12 +7,18 @@
 } */
 
 
-.text-align {
+.text-center {
     text-align: center;
 }
 
-h1 h2 {
-    text-align: center;
+.button {
+    display: inline-block;
+    padding: .75em 1.5em;
+    background: dodgerblue;
+    color: #fff;
+    border-radius: .5em;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .card {
@@ -65,4 +71,31 @@ h1 h2 {
 
 .tabla-personas tr:hover {
     background-color: #ddd;
+}
+
+
+/* NavBar */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #ff9900;
 }
