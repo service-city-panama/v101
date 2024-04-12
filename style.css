@@ -40,7 +40,7 @@
 }
 
 .bg {
-    background-image: url(img/hiace2024.jpg);
+    background-image: url(https://imgvb.com/images/2024/04/12/c6eb370197246320fce67feb4bb14e29.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;    
@@ -103,10 +103,16 @@ th {
 
 
 /* NavBar */
+.navbody {
+    margin: 0;
+    padding: 0;
+}
+
 nav {
     background-color: #333;
     padding: 10px;
     margin: auto;
+    display: block;
 }
 
 ul {
