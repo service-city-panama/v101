@@ -14,7 +14,7 @@
     font-family: poppins;
 }
 
-.bg-white { background-color: #fff }
+
 .color-gray { color: #666 }
 
 .button {
@@ -39,6 +39,7 @@
     align-items: center;
 }
 
+.bg-white { background-color: #fff }
 .bg {
     background-image: url(https://imgvb.com/images/2024/04/12/c6eb370197246320fce67feb4bb14e29.jpg);
     background-repeat: no-repeat;
