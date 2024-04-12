@@ -6,9 +6,16 @@
     height: 100vh;
 } */
 
-
 .text-center {
     text-align: center;
+}
+
+.font-poppins {
+    font-family: poppins;
+}
+
+.color-gray {
+    color: #666;
 }
 
 .button {
@@ -22,12 +29,13 @@
 }
 
 .card {
-    width: 300px;
+    width: 400px;
     padding: 20px;
-    border: 1px, solid #ccc;
+    border: 2px, solid #ccc;
     border-radius: 10px;
-    margin: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
     justify-content: center;
     align-items: center;
 }
@@ -38,7 +46,7 @@
 }
 
 .card h2 {
-    margin-top: 15px;
+    margin-top: auto;
     font-size: 20px;
 }
 
@@ -71,6 +79,20 @@
 
 .tabla-personas tr:hover {
     background-color: #ddd;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    color: #666;
+}
+th {
+    background-color: #f2f2f2;
 }
 
 
