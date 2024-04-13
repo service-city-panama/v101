@@ -122,7 +122,7 @@ header {
 /*===== NavBar =====*/ /*===== NavBar =====*/ /*===== NavBar =====*/ /*===== NavBar =====*/
 
 /* NavBar 2*/ /* NavBar 2*/ /* NavBar 2*/ /* NavBar 2*/
-.navbody {
+* {
     margin: 0;
     padding: 0;
 }
@@ -169,7 +169,7 @@ a:hover {
 }
 
 .card img {
-    width: 100%;
+    width: 300px ;
     border-radius: 5px;
 }
 
