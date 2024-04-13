@@ -29,7 +29,8 @@
     background-size: cover;    
 }
 
-
+.fs-xl { font-size: x-large }
+.fs-xxl { font-size: xx-large }
 
 /*===== NavBar =====*/ /*===== NavBar =====*/ /*===== NavBar =====*/ /*===== NavBar =====*/
 * {
