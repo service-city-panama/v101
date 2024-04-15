@@ -27,7 +27,7 @@ body {
 }
 
 .container span {
-    position: relative;
+    position: absolute;
     left: 0;
     width: 24px;
     height: 5px;
@@ -169,11 +169,12 @@ label { color: #333;    font-weight: 500; }
 
 /**/
 .card {
+    
     width: 380px;
     padding: 20px;
     background-color: #fff;
     border: 2px, solid #ccc;
-    border-radius: 10px;
+    border-radius: 85px;
     margin: auto;
 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
