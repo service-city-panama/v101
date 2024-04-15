@@ -1,6 +1,6 @@
 
 * {
-    margin: auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 
@@ -13,6 +13,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
     min-height: 100vh;
     background: #ececec;
 }
@@ -20,14 +21,13 @@ body {
 .container {
     position: relative;
     width: 256px;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .container span {
-    position: absolute;
+    position: relative;
     left: 0;
     width: 24px;
     height: 5px;
