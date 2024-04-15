@@ -9,6 +9,7 @@ body { background-color: #ececec; }
     border-radius: .5em;    border: none;    cursor: pointer;    text-decoration: none;    margin: 20px; }
 
 .color-dark-gray { color: #333;}
+.color-dodgerblue { color: dodgerblue;}
 .color-gray { color: #666 }
 .color-red { color: red }
 .color-white { color: #fff; }
