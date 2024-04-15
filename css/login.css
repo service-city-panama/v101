@@ -175,8 +175,6 @@ label { color: #333;    font-weight: 500; }
     border: 2px, solid #ccc;
     border-radius: 10px;
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
     justify-content: center;
     align-items: center;
