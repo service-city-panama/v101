@@ -1,5 +1,5 @@
+// Modal.js
 
-// ========== ========== Modal ========== ==========
 // Función para abrir un modal específico
 function abrirModal(id) {
     document.getElementById(id).style.display = 'block';
@@ -24,4 +24,3 @@ function abrirModal(id) {
       event.target.style.display = 'none';
     }
   }
-  // ========== ========== Modal ========== ==========
