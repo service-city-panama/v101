@@ -89,6 +89,7 @@ body {
     margin-top: 10px;
     margin-bottom: -10px;
 }
+
 .bg-transparent {
     background: transparent;
 }
@@ -238,17 +239,19 @@ body {
 }
 
 .forgot-pass a {
-    font-size: 1.2em;
+    font-size: 1em;
     color: dodgerblue;
     text-decoration: none;
     font-weight: 500;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .forgot-pass a:hover {
     text-decoration: none;
     color: #333;
-    font-size: 1.6em;
     transition: 1.5s;
+    font-size: 1.2em;
 }
 
 .btn {
@@ -334,7 +337,7 @@ label {
 
 .signup-link a:hover {
     color: #333;
-    font-size: 1.9em;
+    font-size: 1.3em;
     transition: 1.5s;
 }
 
@@ -349,4 +352,28 @@ label {
     color: #fff;
     transition: 1.5s;
     font-size: 2em;
+}
+
+.heigth-90vh {
+    height: 80vh;
+    width: 100%;
+}
+
+.margin-TB-20 {
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+.index h6 {
+    color: #666;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.index h6:hover {
+    color: transparent;
+    font-size: 2.3em;
+    transition: 10s;
+    text-align: center;
+
 }
