@@ -12,6 +12,7 @@
     --clr-3: #0e4b50;
     --clr-4: #2d8f85;
     --clr-5: #637c54;
+    --bg-color: #fff;
 }
 
 .color-primary {
@@ -103,7 +104,7 @@ body {
     border: 2px, solid #ccc;
     border-radius: 25px;
     margin: auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     justify-content: center;
     align-items: center;
 }
@@ -195,15 +196,15 @@ body {
 .input-box input {
     width: 100%;
     height: 45px;
-    background: transparent;
-    border: 2px solid #333;
+    background: #fff;
+    border: 2px solid #666;
     outline: none;
     border-radius: 10px;
     font-size: 1em;
     font-weight: 500;
     color: dodgerblue;
     padding: 0 20px;
-    transition: .5s ease;
+    transition: 1s ease;
 }
 
 .input-box input:focus,
@@ -218,6 +219,7 @@ body {
     background: #fff;
     padding: 0 6px;
     color: dodgerblue;
+    transition: 1s ease;
 }
 
 .input-box label {
@@ -226,7 +228,7 @@ body {
     left: 20px;
     transform: transparentY(-50%);
     font-size: 1.2em;
-    color: #333;
+    color: #666;
     pointer-events: none;
     transition: 0.5s ease;
 }
@@ -355,12 +357,12 @@ label {
 }
 
 .heigth-90vh {
-    height: 80vh;
-    width: 100%;
+    height: 90vh;
+    width: 350px
 }
 
 .margin-TB-20 {
-    margin-top: -40px;
+
     margin-bottom: 20px;
 }
 
