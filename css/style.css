@@ -113,6 +113,7 @@ body {
 
 .nav-header i:hover {
     color: #ff9900;
+    transition: 1s ease;
 }
 
 .logo {
@@ -139,6 +140,7 @@ body {
 
 .nav-list a:hover {
     color: #ff9900;
+    transition: 1s;
 }
 
 .abrir-menu,
@@ -148,6 +150,8 @@ body {
 
 .signout-btn {
     display: none;
+    font-size: 3em;
+    transition: 3s;
 }
 @media screen and (max-width: 800px) {
 
@@ -210,6 +214,7 @@ body {
     .signout-btn {
         display: block;
     }
+
 }
 /*===== ===== ===== NavBar ===== ===== ===== */
 

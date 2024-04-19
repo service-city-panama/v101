@@ -4,6 +4,7 @@ import {
   signInWithPopup,
   GoogleAuthProvider,
 } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-auth.js";
+import { showMessage } from '../showMessage.js';
 
 const firebaseConfig = {
   apiKey: "AIzaSyAczBzL80MoEe8qm91CCHHxX-_8iAla-S8",
@@ -30,6 +31,9 @@ googleLogin.addEventListener("click", function () {
       console.log(user);
       window.location.href = "home.html";
     })
+
+showMessage('¡Bienvenido!' + credential.user.displayName, 'success')
+
     .catch((error) => {
       const errorCode = error.code;
       const errorMessage = error.message;

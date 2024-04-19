@@ -357,14 +357,10 @@ label {
 }
 
 .heigth-90vh {
-    height: 90vh;
+    height: 85vh;
     width: 350px
 }
 
-.margin-TB-20 {
-
-    margin-bottom: 20px;
-}
 
 .index h6 {
     color: #666;

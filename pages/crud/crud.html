@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Init - ¿Cómo hacer un CRUD en Javascript y Firebase?</title>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="crud.css" />
+    <!-- Font Awesome Style-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+      integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- Script -->
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="#">Javascript CRUD</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <div class="crud-container">
+        <div class="crud-header">
+          <h1>Estudiantes Registrados</h1>
+          <button class="button is-success" id="openRegisterModal">
+            <i class="fas fa-plus"></i>
+            <span>Nuevo Estudiante</span>
+          </button>
+        </div>
+
+        <!-- Tabla -->
+        <table class="table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Nombre</th>
+              <th>Apellido</th>
+              <th>WhatsApp</th>
+              <th>Estado</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <th>1</th>
+              <td>Abraham</td>
+              <td>Castillo</td>
+              <td>6666-8888</td>
+              <td>Trabajando</td>
+              <td>
+                <button class="button is-warning">
+                  <i class="bi bi-pencil-square"></i>
+                </button>
+                <button class="button is-danger">
+                  <i class="bi bi-journal-x"></i>
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal" id="modal">
+      <div class="modal-background"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Registrar nuevos estudiantes</p>
+          <button
+            class="delete"
+            aria-label="close"
+            id="closeRegisterModal"
+          ></button>
+        </header>
+        <section class="modal-card-body">
+          <form id="registerForm">
+            <div class="field">
+              <label class="label">Nombre: </label>
+              <div class="control">
+                <input
+                  class="input"
+                  type="text"
+                  name="nombre"
+                  placeholder="Ingresar nombre"
+                />
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Apodo: </label>
+              <div class="control">
+                <input class="input" type="text"
+                name="apodo"
+                placeholder="Ingresar apodo" />
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label">WhatsApp</label>
+              <div class="control has-icons-left">
+                <input
+                  class="input is-success"
+                  type="text"
+                  name="whatsapp"
+                  placeholder="Ingresa el WhatsApp"
+                />
+                <span class="icon is-small is-left">
+                  <i class="bi bi-whatsapp"></i>
+                </span>
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label">Estado: </label>
+              <div class="control">
+                <input
+                  class="input"
+                  type="text"
+                  name="estado"
+                  placeholder="Ingresar estado"
+                  value=""
+                />
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label">Observación</label>
+              <div class="control">
+                <textarea
+                  class="textarea"
+                  name="observación"
+                  placeholde="Coloque alguna observación"
+                ></textarea>
+              </div>
+            </div>
+          </form>
+        </section>
+        <footer class="modal-card-foot">
+          <div class="buttons">
+            <button class="button is-success bi bi-floppy">
+              <span>Guardar cambios</span>
+            </button>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <!-- Script -->
+    <script type="module" src="crud.js"></script>
+  </body>
+</html>
